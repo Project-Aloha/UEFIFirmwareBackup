@@ -27,7 +27,9 @@ ___
 |---------------------|-------------------------|
 | QTI Reference Desgin| qcom-hoya               |
 | Xiaomi Mix2s        | xiaomi-polaris          |
-
+| nubia Z18           | nubia-NX606J            |
+| nubia X             | nubia-NX616J            |
+| nubia RedMagic Mars | nubia-NX619J            |
 ___
 ### SM8150 Hana/msmnile
 |Device Name          | CodeName                |
