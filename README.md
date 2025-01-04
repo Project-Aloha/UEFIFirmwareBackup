@@ -15,6 +15,13 @@
   - We won't provide IDA files anymore.
 
 ## List
+
+___
+### MSM8998
+|Device Name          | CodeName                |
+|---------------------|-------------------------|
+| OnePlus 5T          | oneplus-dumpling        |
+
 ___
 ### SM6125
 |Device Name          | CodeName                |
