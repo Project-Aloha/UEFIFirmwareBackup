@@ -21,6 +21,7 @@ ___
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | OnePlus 5T          | oneplus-dumpling        |
+| Xiaomi 6            | xiaomi-sagit            |
 
 ___
 ### SM6125
