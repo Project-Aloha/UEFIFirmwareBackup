@@ -127,3 +127,12 @@ ___
 | Xiaomi Pad6S Pro    | xiaomi-sheng            |
 | Xiaomi K60 Pro      | xiaomi-socrates         |
 ___
+
+___
+### SM8650 Lanai/Pineapple
+|Device Name              | CodeName                |
+|-------------------------|-------------------------|
+| QTI reference device    | qcom-lanai              |
+| AYANEO Pocket S2 (Pro)  | ayaneo-aps2             |
+
+___
