@@ -126,6 +126,9 @@ ___
 | Xiaomi 13 Pro       | xiaomi-nuwa             |
 | Xiaomi Pad6S Pro    | xiaomi-sheng            |
 | Xiaomi K60 Pro      | xiaomi-socrates         |
+| AYANEO Pocket ACE   | ayaneo-ace              |
+| AYANEO Pocket DMG   | ayaneo-dmg              |
+| AYANEO Pocket S     | ayaneo-aps              |
 ___
 
 ___
