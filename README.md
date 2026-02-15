@@ -91,6 +91,7 @@ ___
 |---------------------|-------------------------|
 | QTI QRD730          | qcom-sdmmagpie          |
 | Xiaomi 9T/RM K20    | xiaomi-davinci          |
+| EEBBK S6            | eebbk-h130          |
 
 ___
 ### SM8350 Lahaina/lahaina
