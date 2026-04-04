@@ -104,6 +104,7 @@ ___
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | QTI qrd778          | qcom-kodiak             |
+| SamsungTabS7 FEWIFI | samsung-gts7fewifi      |
 
 ___
 ### SM8250 Kodiak/yupik
