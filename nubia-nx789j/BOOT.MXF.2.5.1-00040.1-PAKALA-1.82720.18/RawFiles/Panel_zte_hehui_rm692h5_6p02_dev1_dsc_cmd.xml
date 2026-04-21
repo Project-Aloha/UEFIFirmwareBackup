@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PanelName>RM692H5</PanelName>
+<PanelDescription>rm692h5 temp dev1 with DSC(1080*2340 30bpp)</PanelDescription>
+<Group id="Active Timing">
+ <HorizontalActive>1080</HorizontalActive>
+ <HorizontalFrontPorch>312</HorizontalFrontPorch>
+ <HorizontalBackPorch>360</HorizontalBackPorch>
+ <HorizontalSyncPulse>8</HorizontalSyncPulse>
+ <HorizontalSyncSkew>0</HorizontalSyncSkew>
+ <HorizontalLeftBorder>0</HorizontalLeftBorder>
+ <HorizontalRightBorder>0</HorizontalRightBorder>
+ <VerticalActive>2340</VerticalActive>
+ <VerticalFrontPorch>56</VerticalFrontPorch>
+ <VerticalBackPorch>8</VerticalBackPorch>
+ <VerticalSyncPulse>8</VerticalSyncPulse>
+ <VerticalSyncSkew>0</VerticalSyncSkew>
+ <VerticalTopBorder>0</VerticalTopBorder>
+ <VerticalBottomBorder>0</VerticalBottomBorder>
+ <InvertDataPolarity>False</InvertDataPolarity>
+ <InvertVsyncPolairty>False</InvertVsyncPolairty>
+ <InvertHsyncPolarity>False</InvertHsyncPolarity>
+ <BorderColor>0x0</BorderColor>
+ <BacklightDefault>40</BacklightDefault>
+</Group>
+<Group id="Display Interface">
+ <InterfaceType>9</InterfaceType>
+ <InterfaceColorFormat>3</InterfaceColorFormat>
+</Group>
+<Group id="DSI Interface">
+ <DSIChannelId>2</DSIChannelId>
+ <DSIVirtualId>0</DSIVirtualId>
+ <DSIColorFormat>36</DSIColorFormat>
+ <DSITrafficMode>1</DSITrafficMode>
+ <DSILanes>4</DSILanes>
+ <DSIRefreshRate>0x3C0000</DSIRefreshRate>
+ <DSICmdSwapInterface>False</DSICmdSwapInterface>
+ <DSICmdUsingTrigger>False</DSICmdUsingTrigger>
+ <DSIEnableAutoRefresh>True</DSIEnableAutoRefresh>
+ <DSIAutoRefreshFrameNumDiv>2</DSIAutoRefreshFrameNumDiv>
+ <DSIClockHSForceRequest>0</DSIClockHSForceRequest>
+ <DSITECheckEnable>True</DSITECheckEnable>
+ <DSITEUsingDedicatedTEPin>True</DSITEUsingDedicatedTEPin>
+ <DSITEvSyncStartPos>2340</DSITEvSyncStartPos>
+ <DSITEvSyncInitVal>2340</DSITEvSyncInitVal>
+ <DSICmdModePixelAlignment>1</DSICmdModePixelAlignment>
+ <DSILP11AtInit>True</DSILP11AtInit>
+ <DSIDSCEnable>True</DSIDSCEnable>
+ <DSIDSCMajor>1</DSIDSCMajor>
+ <DSIDSCMinor>1</DSIDSCMinor>
+ <DSIDSCScr>0</DSIDSCScr>
+ <DSIDSCProfileID>0x0B</DSIDSCProfileID>
+ <DSIDSCSliceWidth>540</DSIDSCSliceWidth>
+ <DSIDSCSliceHeight>234</DSIDSCSliceHeight>
+ <DSIDSCSlicePerPacket>2</DSIDSCSlicePerPacket>
+ <DSIControllerMapping>
+  00
+ </DSIControllerMapping>
+ <DSIBitClockFrequency>1050667200</DSIBitClockFrequency>
+</Group>
+<DSIInitSequence>
+
+15 FE 00
+15 FA 01
+15 FE D2
+15 97 08
+15 36 11
+15 39 AB
+15 3A 30
+15 3B 80
+15 3D 09
+15 3F 24
+15 40 04
+15 41 38
+15 42 00
+15 43 EA
+15 44 02
+15 45 1C
+15 46 02
+15 47 1C
+15 48 02
+15 49 00
+15 4A 02
+15 4B 0E
+15 4D 20
+15 4E 16
+15 4F BB
+15 50 00
+15 51 07
+15 53 0C
+15 54 00
+15 55 6A
+15 56 00
+15 58 70
+15 59 18
+15 5A 00
+15 5B 10
+15 5C F0
+15 5D 07
+15 5E 10
+15 5F 20
+15 60 00
+15 61 06
+15 62 0F
+15 63 0F
+15 64 33
+15 65 0E
+15 66 1C
+15 67 2A
+15 68 38
+15 69 46
+15 6A 54
+15 6B 62
+15 6C 69
+15 6D 70
+15 6E 77
+15 6F 79
+15 70 7B
+15 71 7D
+15 72 7E
+15 73 02
+15 74 02
+15 75 22
+15 76 00
+15 77 2A
+15 78 40
+15 79 2A
+15 7A BE
+15 7B 3A
+15 7C FC
+15 7D 3A
+15 7E FA
+15 7F 3A
+15 80 F8
+15 81 3B
+15 82 38
+15 83 3B
+15 84 78
+15 85 3B
+15 86 B6
+15 87 4B
+15 88 F6
+15 89 4C
+15 8A 34
+15 8B 4C
+15 8C 74
+15 8D 5C
+15 8E 74
+15 8F 8C
+15 90 F4
+15 91 00
+15 92 00
+15 93 00
+15 94 00
+15 95 00
+15 96 00
+
+15 FE D4
+15 40 02
+15 FE FD
+15 80 06
+15 83 00
+15 FE A1
+15 74 72
+15 C3 83
+15 C4 FF
+15 C5 7F
+
+15 FE 34
+15 82 38
+15 83 04
+15 00 08
+15 1C 00
+15 1D 10
+15 49 05
+15 1E 00
+15 1F 00
+15 20 00
+15 21 70
+15 22 00
+15 23 F8
+15 24 77
+15 25 F8
+15 26 F8
+15 2F 00
+15 30 00
+15 31 00
+15 32 00
+15 33 00
+15 34 00
+15 35 01
+15 36 99
+15 37 01
+15 38 1F
+15 39 00
+15 3A A3
+15 3B 00
+15 3D 00
+15 3F 00
+15 40 00
+15 41 00
+15 42 00
+15 54 03
+15 55 00
+15 56 00
+15 58 00
+15 59 00
+15 5A 00
+15 5B 00
+15 5C 00
+15 5D 00
+15 5E 00
+15 5F 00
+15 60 00
+15 61 00
+15 62 00
+15 63 00
+15 64 00
+15 65 08
+15 66 00
+15 67 00
+15 77 08
+15 78 00
+
+15 FE A1
+15 5D 0E
+15 75 A7
+
+15 FE 40
+15 49 28
+15 60 18
+15 5E 77
+15 53 83
+15 68 55
+
+15 FE 9C
+15 12 27
+15 13 27
+15 14 27
+15 15 27
+15 53 BB
+15 54 BB
+15 55 BB
+15 56 BB
+15 58 00
+15 7E 0E
+15 80 83
+15 81 83
+15 82 83
+15 83 83
+15 84 55
+15 95 83
+15 99 01
+15 9A 83
+15 9E 01
+15 9F 83
+15 A4 01
+15 A5 83
+15 AA 01
+15 C5 03
+
+15 FE 9A
+15 02 0A
+15 03 0A
+15 04 0A
+15 05 0A
+15 06 1A
+15 0B 1A
+15 0D 00
+15 0E 00
+15 0F 00
+15 10 1A
+15 12 00
+15 13 00
+15 14 00
+15 15 1A
+15 17 00
+15 18 00
+15 19 00
+15 1E 0C
+
+
+15 FE 42
+15 16 04
+15 FE 00
+39 77 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 32 32 00 00 00 00 00 00 00 00 00 00 00 00 00 32 32 00 00 00 00
+39 78 00 00 00 00 00 00 00 00 00 32 32 00 00 00 00 00 00 00 00 00 00 00 00 00 32 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+39 78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 55 55 55 55 05 50 55 55 55 55 55 00 55 55 55 55 55 05 50 55 55 55 55 55 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+15 FE 42
+15 16 00
+
+
+15 FE 9B
+15 40 10
+15 42 0F
+
+15 FE 00
+15 2F 06
+15 FE 00
+15 FA 01
+15 C2 08
+15 35 00
+15 53 20
+39 51 00 00
+
+05 11
+ff 78
+05 29
+ff 14
+</DSIInitSequence>
+<DSITermSequence>
+ 05 28
+ ff 78
+ 05 10
+ ff 78
+</DSITermSequence>
+<Group id='Backlight Configuration'>
+<BacklightType>3</BacklightType>
+<BacklightBitWidth>12</BacklightBitWidth>
+<DisplayResetInfo>0 10000 10000 50000 0</DisplayResetInfo>
+</Group>
+
