@@ -98,6 +98,7 @@ ___
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Redmi K40 Pro	      | xiaomi-haydn            |
+| Xiaomi 11	          | xiaomi-venus            |
 
 ___
 ### SM7325 Kodiak/yupik
@@ -107,11 +108,13 @@ ___
 | SamsungTabS7 FEWIFI | samsung-gts7fewifi      |
 
 ___
-### SM8250 Kodiak/yupik
+### SM8250 Kona
 |Device Name          | CodeName                |
 |---------------------|-------------------------|
 | Xiaomi Pad 5 Pro    | xiaomi-elish            |
 | Xiaomi Pad 6        | xiaomi-pipa             |
+| Xiaomi Poco F4/K40S | xiaomi-munch             |
+
 ___
 ### SM8450 Waipio/waipio
 |Device Name          | CodeName                |
@@ -146,5 +149,18 @@ ___
 |-------------------------|-------------------------|
 | QTI reference device    | qcom-lanai              |
 | AYANEO Pocket S2 (Pro)  | ayaneo-aps2             |
+
+
+___
+### SM8750 Pakala
+|Device Name              | CodeName                |
+|-------------------------|-------------------------|
+| Oneplus 13              | oneplus-pjz110          |
+
+___
+### SM8850 Kaanapali
+|Device Name              | CodeName                |
+|-------------------------|-------------------------|
+| Oneplus 15              | oneplus-plk110          |
 
 ___
