@@ -155,6 +155,7 @@ ___
 ### SM8750 Pakala
 |Device Name              | CodeName                |
 |-------------------------|-------------------------|
+| Lenovo y700 gen4        | lenovo-y700g4           |
 | Oneplus 13              | oneplus-pjz110          |
 
 ___
