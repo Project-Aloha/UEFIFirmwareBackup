@@ -157,6 +157,8 @@ ___
 |-------------------------|-------------------------|
 | Lenovo y700 gen4        | lenovo-y700g4           |
 | Oneplus 13              | oneplus-pjz110          |
+| Xiaomi Piano            | xiaomi-piano            |
+| Redmagic 10             | redmagic-nx789j         |
 
 ___
 ### SM8850 Kaanapali
